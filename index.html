@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FrontEnd Mentor: Time Tracking Dashboard Challenge</title>
+  </head>
+  <body>
+    <main class="container">
+      <!-- Profile Card -->
+      <div class="card__container" id="main">
+        <div class="card__main">
+          <img src="images/Saitama.jpg" alt="" id="avatar" />
+          <div>
+            <p class="text__small">Report for</p>
+            <h1 class="name">Saitama</h1>
+          </div>
+        </div>
+        <section class="time_select_container">
+          <div class="time_select">Daily</div>
+          <div class="time_select">Weekly</div>
+          <div class="time_select">Monthly</div>
+        </section>
+      </div>
+      <!-- Profile Card -->
+      <!-- Work Card -->
+      <div class="card__container" id="work">
+        <div class="img__container work">
+          <img
+            src="images/icon-work.svg"
+            id="card_img"
+            style="position: absolute; top: -10px; right: 24px; opacity: 0.8" />
+        </div>
+        <section class="data__section--blue">
+          <div class="data__row">
+            <p>Work</p>
+            <img src="images/icon-ellipsis.svg" class="ellipsis" alt="" />
+          </div>
+          <div class="time__container">
+            <h3 class="time__total-hours">32hrs</h3>
+            <p class="time__last-week">Last Week - 36hrs</p>
+          </div>
+        </section>
+      </div>
+      <!-- Work Card -->
+      <!-- Play Card -->
+      <div class="card__container" id="play">
+        <div class="img__container play">
+          <img
+            src="images/icon-play.svg"
+            id="card_img"
+            style="
+              position: absolute;
+              top: -4px;
+              right: 24px;
+              opacity: 0.85;
+              width: 5rem;
+            " />
+        </div>
+        <section class="data__section--blue">
+          <div class="data__row">
+            <p>Play</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="ellipsis" />
+          </div>
+          <div class="time__container">
+            <h3 class="time__total-hours">10hrs</h3>
+            <p class="time__last-week">Last Week - 8hrs</p>
+          </div>
+        </section>
+      </div>
+      <!-- Play Card -->
+      <!-- Study Card -->
+      <div class="card__container" id="study">
+        <div class="img__container study">
+          <img
+            src="images/icon-study.svg"
+            id="card_img"
+            style="
+              position: absolute;
+              top: -4px;
+              right: 20px;
+              opacity: 0.8;
+              width: 5rem;
+            " />
+        </div>
+        <section class="data__section--blue">
+          <div class="data__row">
+            <p>Study</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="ellipsis" />
+          </div>
+          <div class="time__container">
+            <h3 class="time__total-hours">4hrs</h3>
+            <p class="time__last-week">Last Week - 7hrs</p>
+          </div>
+        </section>
+      </div>
+      <!-- Study Card -->
+      <!-- Exercise Card -->
+      <div class="card__container" id="exercise">
+        <div class="img__container exercise">
+          <img
+            src="images/icon-exercise.svg"
+            id="card_img"
+            style="
+              position: absolute;
+              top: 0px;
+              right: 20px;
+              opacity: 0.8;
+              width: 5.4rem;
+            " />
+        </div>
+        <section class="data__section--blue">
+          <div class="data__row">
+            <p>Exercise</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="ellipsis" />
+          </div>
+          <div class="time__container">
+            <h3 class="time__total-hours">4hrs</h3>
+            <p class="time__last-week">Last Week - 5hrs</p>
+          </div>
+        </section>
+      </div>
+      <!-- Exercise Card -->
+      <!-- Social Card -->
+      <div class="card__container" id="social">
+        <div class="img__container social">
+          <img
+            src="images/icon-social.svg"
+            id="card_img"
+            style="
+              position: absolute;
+              top: -18px;
+              right: 16px;
+              opacity: 0.8;
+              width: 5rem;
+            " />
+        </div>
+        <section class="data__section--blue">
+          <div class="data__row">
+            <p>Social</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="ellipsis" />
+          </div>
+          <div class="time__container">
+            <h3 class="time__total-hours">5hrs</h3>
+            <p class="time__last-week">Last Week - 10hrs</p>
+          </div>
+        </section>
+      </div>
+      <!-- Social Card -->
+      <!-- Self-Care Card -->
+      <div class="card__container" id="self-care">
+        <div class="img__container self-care">
+          <img
+            src="images/icon-self-care.svg"
+            id="card_img"
+            style="
+              position: absolute;
+              top: -12px;
+              right: 16px;
+              opacity: 0.8;
+              width: 4.5rem;
+            " />
+        </div>
+        <section class="data__section--blue">
+          <div class="data__row">
+            <p>Self Care</p>
+            <img src="images/icon-ellipsis.svg" alt="" class="ellipsis" />
+          </div>
+          <div class="time__container">
+            <h3 class="time__total-hours">2hrs</h3>
+            <p class="time__last-week">Last Week - 2hrs</p>
+          </div>
+        </section>
+      </div>
+      <!-- Self-Care Card -->
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
